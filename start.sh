@@ -22,6 +22,15 @@ screen_name_array+=("$screen_name")
 screen_path_array+=("$screen_path")
 screen_cmd_array+=("$screen_cmd")
 
+# mc3
+screen_name="mc3"
+screen_path="/home/mc3/server"
+screen_cmd="./start.sh"
+# append to array
+screen_name_array+=("$screen_name")
+screen_path_array+=("$screen_path")
+screen_cmd_array+=("$screen_cmd")
+
 # mcpe1
 screen_name="mcpe1"
 screen_path="/home/mcpe1/server"
